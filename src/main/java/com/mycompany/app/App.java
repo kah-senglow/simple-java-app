@@ -10,7 +10,7 @@ public class App {
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println("First local changed. Jenkins is awesome!!!");
+        System.out.println("Second local changed. Jenkins is awesome!!!");
     }
 
     public String getMessage() {
