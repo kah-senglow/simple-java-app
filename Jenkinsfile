@@ -32,7 +32,11 @@ pipeline {
         archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false, onlyIfSuccessful: true
       }
     }
-    
+	stage('Dummy') { 
+	steps { 
+	echo 'Meaningless statement to verify this'             
+	} 
+	}     
   }
     
   post {
